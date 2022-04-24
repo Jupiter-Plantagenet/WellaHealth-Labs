@@ -3,7 +3,10 @@ class LabThree
 {
     public static void Main(string[] args)
     {
-        int number = 34;
+       Console.WriteLine("Enter number");
+        string numOne = Console.ReadLine();
+       
+        int number = int.Parse(numOne);
         int zoar = 2;
         string result = "Prime Number";
 
